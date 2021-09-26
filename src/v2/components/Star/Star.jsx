@@ -7,15 +7,11 @@ export function Star(props) {
     const [uuid, setUuid] = useState('');
 
     useEffect(() => {
-        addCheckedToValue();
-    }, [props]);
-
-    const addCheckedToValue = () => {
         if (!rating) {
             setRating(Math.round(props.rating * 2));  
         }
         setUuid(uuidv4());
-    }
+    }, [props, rating]);
 
     const updateRatingAndParent = (value) => {
         let updateRating = Number(value);
