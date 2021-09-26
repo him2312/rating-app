@@ -2,10 +2,11 @@ import React, { Component } from 'react';
 import { Container, ProductTitle, ProductRating, Rating, ReviewContainer, ReviewTitle, RatingContainer, AllReviews, ReviewRow, Review} from './styles';
 import { initializeFirebase } from '../../firebase/firebase.service';
 import { computeAverageRating } from '../../utils/utils';
+
 import Button from '../../components/Button';
-import { Star } from '../../components/Star';
-import Overlay from '../../components/Overlay';
+import { Star } from '../../components/Star/Star';
 import {Loader} from '../../components/Loader.jsx';
+import Overlay from '../../components/Overlay';
 
 class ProductListing extends Component {
   constructor() {

@@ -72,6 +72,7 @@ export const ReviewRow = styled.div`
 
 export const Review = styled.div`
     text-align: left;
+    margin-left: 10px;
     @media screen and (max-width: 700px) {
       text-align: center;
     }

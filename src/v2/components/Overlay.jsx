@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 import { ts20n, ts24n, ts44b } from '../typography/fonts';
 import Button from './Button';
-import { Star } from './Star';
+import { Star } from './Star/Star';
 import { v4 as uuidv4 } from 'uuid';
 import { submitReview } from '../firebase/firebase.service';
 
