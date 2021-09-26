@@ -21,11 +21,12 @@ const OverlayContainer = styled.div`
 const ModalContent = styled.div`
     margin: 15% auto;
     padding: 50px;
-    width: 80%;
+    width: 50%;
     background: #FFFFFF;
     border-radius: 20px;
     @media screen and (max-width: 700px) {
         padding: 20px;
+        width: 80%;
     }
 `
 
