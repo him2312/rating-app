@@ -58,8 +58,13 @@ input:checked + label:hover, input:checked ~ label:hover, /* highlight current a
 input:checked ~ label:hover ~ label, /* highlight previous selected stars for new rating */
 label:hover ~ input:checked ~ label /* highlight previous selected stars */ { color: #FFCD69;  } 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .resize > label:before {
         font-size: 20px;
+    }
+    .left-shift {
+        margin-left: 2px;
+        padding-block-start: 0.35em;
+        padding-inline-start: 0.75em;
     }
 }
